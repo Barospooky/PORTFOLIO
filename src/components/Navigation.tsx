@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -19,8 +19,13 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-xl md:text-2xl font-bold gradient-text truncate max-w-[200px] md:max-w-none">
-            Barani Chandrasekar
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-primary/20 rounded-lg">
+              <Code className="h-6 w-6 text-neon" />
+            </div>
+            <div className="text-xl md:text-2xl font-bold gradient-text truncate max-w-[200px] md:max-w-none">
+              Barani Chandrasekar
+            </div>
           </div>
 
           {/* Desktop Menu */}
