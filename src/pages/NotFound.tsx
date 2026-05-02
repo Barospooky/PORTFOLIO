@@ -21,8 +21,4 @@ const NotFound = () => {
   );
 };
 
-<<<<<<< HEAD
 export default NotFound;
-=======
-export default NotFound;
->>>>>>> 0f2d114 (Initial vaalga)

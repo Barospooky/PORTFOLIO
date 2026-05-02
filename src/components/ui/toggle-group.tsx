@@ -46,8 +46,4 @@ const ToggleGroupItem = React.forwardRef<
 
 ToggleGroupItem.displayName = ToggleGroupPrimitive.Item.displayName;
 
-<<<<<<< HEAD
 export { ToggleGroup, ToggleGroupItem };
-=======
-export { ToggleGroup, ToggleGroupItem };
->>>>>>> 0f2d114 (Initial vaalga)

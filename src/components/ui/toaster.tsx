@@ -21,8 +21,4 @@ export function Toaster() {
       <ToastViewport />
     </ToastProvider>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0f2d114 (Initial vaalga)

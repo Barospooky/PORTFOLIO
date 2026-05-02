@@ -33,8 +33,4 @@ const RadioGroupItem = React.forwardRef<
 });
 RadioGroupItem.displayName = RadioGroupPrimitive.Item.displayName;
 
-<<<<<<< HEAD
 export { RadioGroup, RadioGroupItem };
-=======
-export { RadioGroup, RadioGroupItem };
->>>>>>> 0f2d114 (Initial vaalga)

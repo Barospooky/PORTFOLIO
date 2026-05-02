@@ -20,8 +20,4 @@ const Slider = React.forwardRef<
 ));
 Slider.displayName = SliderPrimitive.Root.displayName;
 
-<<<<<<< HEAD
 export { Slider };
-=======
-export { Slider };
->>>>>>> 0f2d114 (Initial vaalga)

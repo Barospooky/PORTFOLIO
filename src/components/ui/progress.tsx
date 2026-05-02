@@ -20,8 +20,4 @@ const Progress = React.forwardRef<
 ));
 Progress.displayName = ProgressPrimitive.Root.displayName;
 
-<<<<<<< HEAD
 export { Progress };
-=======
-export { Progress };
->>>>>>> 0f2d114 (Initial vaalga)

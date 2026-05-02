@@ -14,8 +14,4 @@ const Label = React.forwardRef<
 ));
 Label.displayName = LabelPrimitive.Root.displayName;
 
-<<<<<<< HEAD
 export { Label };
-=======
-export { Label };
->>>>>>> 0f2d114 (Initial vaalga)

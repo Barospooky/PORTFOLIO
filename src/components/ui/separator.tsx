@@ -17,8 +17,4 @@ const Separator = React.forwardRef<
 ));
 Separator.displayName = SeparatorPrimitive.Root.displayName;
 
-<<<<<<< HEAD
 export { Separator };
-=======
-export { Separator };
->>>>>>> 0f2d114 (Initial vaalga)

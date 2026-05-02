@@ -16,8 +16,4 @@ export function useIsMobile() {
   }, []);
 
   return !!isMobile;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0f2d114 (Initial vaalga)

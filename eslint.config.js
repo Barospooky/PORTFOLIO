@@ -23,8 +23,4 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-vars": "off",
     },
   },
-<<<<<<< HEAD
 );
-=======
-);
->>>>>>> 0f2d114 (Initial vaalga)

@@ -34,8 +34,4 @@ const Toggle = React.forwardRef<
 
 Toggle.displayName = TogglePrimitive.Root.displayName;
 
-<<<<<<< HEAD
 export { Toggle, toggleVariants };
-=======
-export { Toggle, toggleVariants };
->>>>>>> 0f2d114 (Initial vaalga)
