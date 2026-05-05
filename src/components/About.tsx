@@ -1,5 +1,5 @@
 import { GraduationCap, Award } from "lucide-react";
-import profilePicture from "@/assets/profile-picture-hero.jpg";
+import profilePicture from "@/assets/profile-picture.jpg";
 const About = () => {
   return <section id="about" className="py-20 relative">
       <div className="container mx-auto px-6">
