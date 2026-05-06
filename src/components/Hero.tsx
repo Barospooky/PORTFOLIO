@@ -34,7 +34,7 @@ const TypeScriptLogo = () => (
 );
 
 import { Button } from "@/components/ui/button";
-import profilePicture from "@/assets/profile-picture.jpg";
+import profilePicture from "@/assets/profile-picture-hero.jpg";
 
 const Hero = () => {
   return (
