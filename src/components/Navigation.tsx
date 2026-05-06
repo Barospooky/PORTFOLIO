@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profilePicture from "@/assets/profile-picture-hero.jpg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +20,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-full border-2 border-neon/50 overflow-hidden shrink-0">
-              <img 
-                src={profilePicture} 
-                alt="Barani Chandrasekar" 
-                className="h-full w-full object-cover"
-              />
+            <div className="h-10 w-10 rounded-full border-2 border-neon/50 flex items-center justify-center shrink-0 bg-white/5">
+              <User className="h-6 w-6 text-neon" />
             </div>
             <div className="text-xl md:text-2xl font-bold gradient-text truncate max-w-[150px] md:max-w-none">
               Barani Chandrasekar
